@@ -11,3 +11,15 @@ def pow_native(number, exponent):
     for i in range(1, exponent + 1):
         total *= number
     return total
+
+def floor():
+    print("TODO - Add implementation")
+    
+def sine():
+    print("TODO - Add implementation")
+    
+def cosine():
+    print("TODO - Add implementation")
+    
+def square_root():
+    print("TODO - Add implementation")
