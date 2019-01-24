@@ -7,7 +7,7 @@ def pow_native(number, exponent):
     """
     if exponent == 0:
         return 1
-    total = 0
-    for i in range(0,exponent+1):
-        total += number
+    total = 1
+    for i in range(1, exponent + 1):
+        total *= number
     return total
