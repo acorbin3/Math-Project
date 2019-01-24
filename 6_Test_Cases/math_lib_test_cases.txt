@@ -1,0 +1,22 @@
+Math library utilities
+
+--Floor--
+TODO
+
+--Sine--
+TODO
+
+--Cosine--
+TODO
+
+--Square Root--
+TODO
+
+--Power--
+Strategy: Ensure to test a few cases of the base when exponent is 0 even though the base doesnt matter
+1. When exponent is equal to 0 and base is 0, return value of 1
+2. When exponent is equal to 0 and base is 10, return value of 1
+
+Strategy: Ensure to test when base is > 0 and exponent is > 0
+1. when exponent is 2 and base is 2, return value 4
+2. when exponent is 5 and base is 3, return value 243
