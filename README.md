@@ -22,6 +22,7 @@ Ideally feature branches wouldn’t be merged into the mainline until ready but 
 1. Functional teams that have feature branches would need to sync between their branches to insure proper integration. Once integration is done N teams would merge their branches into the master/trunk
 1. Functional teams merge to master/trunk, do the integration and when they find problems on their side then updates would happen on their feature branch and remerge with master/trunk
 1. Functional teams merge what they have to master/trunk and then re-branch to handle integration changes
+**Note - its recommended to call out the issue number within pull request comment thread or description when creating**
 
 The 2nd option is what we are use to and probably easily adaptable to the teams.
 
