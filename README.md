@@ -3,6 +3,10 @@ This project will show the steps it takes to develop features following a DO-178
 
 Note - All changes shall be associated to a feature issue or a problem report issue
 
+# Learnings
+1. Its recommended to call out the issue number within pull request comment thread or description when creating
+1. In the commit changes add tags to help identify what artifact is being updated tags could be {SLR, HLR, SSD, LLR, CODE, TC, TP}. I could see multiple in a commit, but I would recommend splitting that commit to separate out
+
 # Steps on introducing a feature
 1. **Create an issue** -  This will be the change authorization and overview of what needs to be done for a particular feature. For an example I will create an feature issue that will add the bound function
     * For organizational purposes we can use milestones to organize a set of feature issues. For example, if we are working on a math library we might want to have separate feature issue to add in cos, sin, ceiling, floor, etc. The milestone will be the container to help track all of the issues
@@ -22,8 +26,6 @@ Ideally feature branches wouldn’t be merged into the mainline until ready but 
 1. Functional teams that have feature branches would need to sync between their branches to insure proper integration. Once integration is done N teams would merge their branches into the master/trunk
 1. Functional teams merge to master/trunk, do the integration and when they find problems on their side then updates would happen on their feature branch and remerge with master/trunk
 1. Functional teams merge what they have to master/trunk and then re-branch to handle integration changes
-
-**Note - its recommended to call out the issue number within pull request comment thread or description when creating**
 
 The 2nd option is what we are use to and probably easily adaptable to the teams.
 
