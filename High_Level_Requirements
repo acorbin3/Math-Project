@@ -2,4 +2,4 @@ High Level requirements for the math library
 Math features
 Sine - This featute shall take an input value and calculate and return the sine value
 Cosine - This featute shall take an input value and calculate and return the sine value
-Floor - TBD
+Floor - This feature shall take an in a floating point value, remove the decimal and return an integer value
