@@ -4,7 +4,7 @@ This project will show the steps it takes to develop features following a DO-178
 Note - All changes shall be associated to a feature issue or a problem report issue
 
 # Learnings
-1. Its recommended to call out the issue number within pull request comment thread or description when creating
+1. Its recommended to call out the issue number within pull request comment thread or description when creating. This helps easily show the link between the review and the feature issue
 1. In the commit changes add tags to help identify what artifact is being updated tags could be {SLR, HLR, SSD, LLR, CODE, TC, TP}. I could see multiple in a commit, but I would recommend splitting that commit to separate out
 
 # Steps on introducing a feature
