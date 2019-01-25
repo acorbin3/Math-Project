@@ -43,11 +43,6 @@ assignees: ''
 - [ ] Source Code traceable to low-level requirements
 - [ ] Source Code accurate and consistent
 - [ ] Output of software integration process is complete and correct
-- [ ] Executable Object Code complies with high-level requirements
-- [ ] Executable Object Code is robust with high-level requirements
-- [ ] Executable Object Code complies with low-level requirements
-- [ ] Executable Object Code is robust with low-level requirements
-- [ ] Executable Object Code is compatible with target computer
 ## Test Cases 
 ## Test Procedures
 - [ ] Test procedures are correct
