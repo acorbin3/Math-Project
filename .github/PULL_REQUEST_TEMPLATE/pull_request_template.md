@@ -1,47 +1,42 @@
-**Overview of what needs to be reviewed**
-[insert text]
+## Status
+**READY/IN DEVELOPMENT/HOLD**
 
-# Check Lists
-## System Requirements
-## High Level Requirements
- - [ ] Requirements comply with system requirements
- - [ ] Requirements are accurate and consistent
- - [ ] Requirements are compatible with target computer
- - [ ] Requirements are verifiable
- - [ ] Requirements conform to standards
- - [ ] Requirements trace to system requirements
- - [ ] Algorithms are accurate
-## Software Design
-- [ ] Software architecture is compatible with high-level requirements
-- [ ] Software architecture is consistent
-- [ ] Software architecture is compatible with target computer
-- [ ] Software architecture is verifiable
-- [ ] Software architecture conforms to standards
-- [ ] Software partitioning integrity is confirmed
-## Low Level Requirements 
-- [ ] Requirements comply with high-level requirements
-- [ ] Requirements are accurate and consistent
-- [ ] Requirements are compatible with target computer
-- [ ] Requirements are verifiable
-- [ ] Requirements conform to standards
-- [ ] Requirements trace to high-level requirements
-- [ ] Algorithms are accurate
-## Software 
-- [ ] Source Code complies with low-level requirements
-- [ ] Source Code complies with software architecture
-- [ ] Source Code is verifiable
-- [ ] Source Code conforms to standards
-- [ ] Source Code traceable to low-level requirements
-- [ ] Source Code accurate and consistent
-- [ ] Output of software integration process is complete and correct
-## Test Cases 
-## Test Procedures
-- [ ] Test procedures are correct
-- [ ] Test procedures are correct and discrepancies explained
-- [ ] Test coverage of high-level requirements is achieved
-- [ ] Test coverage of low-level requirements is achieved
-- [ ] Test coverage of software structure decision coverage is achieved
-- [ ] Test coverage of software statement coverage is achieved
-- [ ] Test coverage of software structure data coupling and control coupling is achieved
+## Migrations
+YES | NO
+
+## Description
+A few sentences describing the overall goals of the pull request's commits.
+
+## Related PRs
+List related PRs against other branches:
+
+branch | PR
+------ | ------
+other_pr_production | [link]()
+other_pr_master | [link]()
 
 
+## Todos
+- [ ] Tests
+- [ ] Documentation
+
+
+## Deploy Notes
+Notes regarding deployment the contained body of work.  These should note any
+db migrations, etc.
+
+## Steps to Test or Reproduce
+Outline the steps to test or reproduce the PR here.
+
+```sh
+git pull --prune
+git checkout <feature_branch>
+bundle; script/server
+```
+
+1. 
+
+## Impacted Areas in Application
+List general components of the application that this PR will affect:
+
+* 
