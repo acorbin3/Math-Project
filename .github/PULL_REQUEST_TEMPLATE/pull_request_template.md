@@ -1,12 +1,3 @@
----
-name: Master Review Pull Request
-about: Checklist for all the following configuration items: System Requirements, High Level Requirements, Software Design, Low Level Requirements, Software, Test Cases, Test Procedures
-title: "[TDR] -"
-labels: 'TDR'
-assignees: ''
-
----
-
 **Overview of what needs to be reviewed**
 [insert text]
 
