@@ -3,11 +3,6 @@ This project will show the steps it takes to develop features following a DO-178
 
 Note - All changes shall be associated to a feature issue or a problem report issue
 
-# Learnings
-1. Its recommended to call out the issue number within pull request comment thread or description when creating. This helps easily show the link between the review and the feature issue
-1. In the commit changes add tags to help identify what artifact is being updated tags could be {SLR, HLR, SSD, LLR, CODE, TC, TP}. I could see multiple in a commit, but I would recommend splitting that commit to separate out
-1. In commit comment that’s updating per an informal review discussion consider adding the commit hash were discussion occurred. This allows a nice link to show what drove the change [Here is an example](https://github.com/acorbin3/Math-Project/commit/3ca51f977ba9cb441a2a5bccf574592f93474209#diff-aa1fb8ab02502144d44e15d379a30fc2)
-
 # Steps on introducing a feature
 1. **Create an issue** -  This will be the change authorization and overview of what needs to be done for a particular feature. For an example I will create an feature issue that will add the bound function
     * For organizational purposes we can use milestones to organize a set of feature issues. For example, if we are working on a math library we might want to have separate feature issue to add in cos, sin, ceiling, floor, etc. The milestone will be the container to help track all of the issues
