@@ -12,8 +12,8 @@ def pow_native(number, exponent):
         total *= number
     return total
 
-def floor():
-    print("TODO - Add implementation")
+def floor(initial):
+    return int(initial)
     
 def sine():
     print("TODO - Add implementation")
@@ -21,5 +21,14 @@ def sine():
 def cosine():
     print("TODO - Add implementation")
     
-def square_root():
-    print("TODO - Add implementation")
+def square_root(x):
+    epsilon = 0.01
+    left = 0
+    right = x
+    guess = (right+left)/2.0
+    while abs(guess**2 - x) > :
+        if guess**2 < x:
+            left = guess
+        else:
+            right = guess
+        guess = (right+left)/2.0
