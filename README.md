@@ -23,7 +23,7 @@ Note - All changes shall be associated to a feature issue or a problem report is
 ## How to handle merging
 I would recommend using [Gitlab Flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html) branching mechanism. This uses a branch, do development, merge changes back into mainline. When it comes to needing releases, then we would create release branches. They call this pre-production branch, and production branch which would be a branch off pre-production.
 
-Ideally feature branches wouldn’t be merged into the mainline until ready but since our teams are broken up into functional teams there are dependencies. That would mean 3 different process to accomplish integrated features
+Ideally feature branches wouldn’t be merged into the mainline until ready but since our teams are broken up into functional teams there are dependencies. That would mean a few different process to accomplish integrated features
 1. Functional teams that have feature branches would need to sync between their branches to insure proper integration. Once integration is done N teams would merge their branches into the master/trunk
 1. Functional teams merge to master/trunk, do the integration and when they find problems on their side then updates would happen on their feature branch and remerge with master/trunk
 1. Functional teams merge what they have to master/trunk and then re-branch to handle integration changes
