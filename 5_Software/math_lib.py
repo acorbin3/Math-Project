@@ -32,3 +32,4 @@ def square_root(x):
         else:
             right = guess
         guess = (right+left)/2.0
+    return guess
