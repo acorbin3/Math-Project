@@ -1,5 +1,0 @@
-The math library design
-The math library shall be a standalone utility so that it can be portable for future usages
-The interfaces shall run in under 1 second
-Algorithms shall be documented for each utility
-

@@ -1,20 +1,27 @@
 Math library utilities
 
---Floor--
+# Floor
 Math_LLR_1 - The Floor utility shall input a floating point value, remove the decimal point, and return a integer value
 
---Sine--
+# Sine
 Math_LLR_2 - The Sine utiltiy shall support both radians and degrees as inputs
 
---Cosine--
+# Cosine
 Math_LLR_3 - The Cosine utiltiy shall support both radians and degrees as inputs
 
---Square Root--
+# Square Root
 
---Power--
+# Power
 Math_LLR_4 - The Power utility shall recive two inputs, 1 the base and the exponent(base^exponent)
 Math_LLR_5 - The Power utility shall support negative values
 Math_LLR_6 - When the exponent is positive, the Power utility will multiply the base by is self the number of times equal to the exponent
 
 
---New section--
+# Example requirements table
+|req|text|
+|-|-|
+|req_1|text|
+
+|  Hrsf | fsdf  |
+|---|---|
+|  32 | 32  |
